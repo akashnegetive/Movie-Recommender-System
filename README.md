@@ -54,6 +54,18 @@ The purpose of a recommendation system basically is to search for content that w
 
 - Uses : word2vec , embedding .           
 
+## Dataset
+
+The dataset used for this project contains information about movies, including their titles and IDs. It is processed and stored in `movie_data.pkl`. The dataset is used to calculate the cosine similarity between movies.
+* [Dataset link](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
+
+## Model
+
+The model for recommending movies is based on cosine similarity. Cosine similarity is used to measure the similarity between movie titles. The model computes the similarity scores and suggests the top 10 similar movies based on the selected movie title.
+
+## Results
+
+The system provides the top 10 recommended movies for any selected movie title. It also fetches and displays the posters of these recommended movies using the TMDB API.
 
 # Demo:
 
@@ -62,11 +74,6 @@ The purpose of a recommendation system basically is to search for content that w
 <img src="demo/2.png" alt="workflow" width="70%">
 
 <img src="demo/3.png" alt="workflow" width="70%">
-
-
-# Dataset has been used:
-
-* [Dataset link](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
 
 # Concept used to build the model.pkl file : cosine_similarity
 
