@@ -100,7 +100,7 @@ The model for recommending movies is based on cosine similarity. Cosine similari
 
 The system provides the top 10 recommended movies for any selected movie title. It also fetches and displays the posters of these recommended movies using the TMDB API.
 
-## Demo:
+## Demo: https://movie-recommender-system-akash.streamlit.app/
 
 <img src="demo/1.png" alt="workflow" width="70%">
 
