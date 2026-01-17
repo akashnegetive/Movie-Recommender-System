@@ -1,4 +1,4 @@
-# Project: Movie Recommender System Using Machine Learning!
+# Project: Entertainment Recommender System Using Machine Learning!
 
 <img src="demo/4.png" alt="workflow" width="60%">
 
