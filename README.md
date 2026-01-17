@@ -111,7 +111,7 @@ The model for recommending movies is based on cosine similarity. Cosine similari
 6.Displays movie names and posters in a clean 5-column layout using Streamlit UI components
 
 
-## Website Link   [🔗](https://movie-recommender-system-akash.streamlit.app/)
+## Website Link   [🔗](https://entertainment-recommender-system-akash.streamlit.app/)
 
 <img src="demo/1.png" alt="workflow" width="70%">
 
